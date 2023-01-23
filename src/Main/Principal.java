@@ -18,7 +18,7 @@ public class Principal {
         String[] horas;
         String grupoProfesor = "";
 
-        Pattern patronGrupo = Pattern.compile("Grupo \\d{1,2}"); //patron grupo
+        Pattern patronGrupo = Pattern.compile("Grupo \\d{1,2}", Pattern.CASE_INSENSITIVE); //patron grupo
 
         ArrayList<Grupo> listaGrupo = new ArrayList<Grupo>();
 
